@@ -41,6 +41,7 @@ const Register = () => {
                 ):(
                     <form action="" className="input">
                     <input type="password" placeholder="password" ref={passwordRef} />
+                    {password}
                     <button className="registerButton" onClick={handleFinish}>
                         Start
                     </button>
